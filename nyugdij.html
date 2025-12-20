@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nyugdíjmegtakarítás – Fehér József</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="service-page">
+    <header>
+      <div class="container nav">
+        <a class="brand" href="index.html">Fehér József</a>
+        <button id="menu-toggle" type="button" class="menu-toggle"
+                aria-expanded="false" aria-controls="mainmenu" aria-label="Menü">☰</button>
+        <nav class="menu" id="mainmenu">
+          <a href="index.html">Főoldal</a>
+          <a href="rolam.html">Rólam</a>
+          <a href="gyik.html">GYIK</a>
+          <a href="kapcsolat.html">Kapcsolat</a>
+        </nav>
+        <a class="cta" href="kapcsolat.html">Időpontkérés</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="service-hero">
+        <div class="container pad">
+          <a href="index.html#szolgaltatasok" class="back-home">Vissza a szolgáltatásokhoz</a>
+          <div class="service-hero-grid">
+            <div class="service-hero-copy">
+              <h1>Nyugdíjmegtakarítások</h1>
+              <p class="lead">Segítek eligazodni a nyugdíjbiztosítás, NYESZ és önkéntes pénztár megoldások között – érthetően, több lehetőséget összehasonlítva.</p>
+              <div class="service-pills">
+                <a class="pill" href="#reszletek">Részletek</a>
+                <a class="pill" href="#idopont">Időpontkérés</a>
+              </div>
+              <div class="service-checks">
+                <h2>Amiben segítek</h2>
+                <ul class="checklist">
+                  <li>Több mint 15 év tapasztalat: tudom, milyen buktatókat kell elkerülni.</li>
+<li>40+ pénzintézet / 90–100 termék: nem egy terméket adok el, hanem neked keresek megoldást.</li>
+<li>Költségek + hozamok összehasonlítása, hogy lásd, mi éri meg hosszú távon.</li>
+<li>Segítek kihasználni a maximális adójóváírást (állami támogatást), ahol elérhető.</li>
+                </ul>
+              </div>
+            </div>
+
+            <figure class="service-hero-media">
+              <img src="Nyugdíjas.jpg" alt="Nyugdíjmegtakarítás – tervezés" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-sections" id="reszletek">
+        <div class="container pad">
+          <div class="service-cards">
+            <article class="service-card">
+            <h3>Kinek ajánlott?</h3>
+            
+            <ul class="service-list"><li>Ha tudatosan készülsz a nyugdíjas évekre.</li><li>Ha fontos az adójóváírás és a költségek átláthatósága.</li><li>Ha több lehetőséget szeretnél látni, nem csak egy ajánlatot.</li></ul>
+          </article>
+<article class="service-card">
+            <h3>Mit kapsz a konzultáción?</h3>
+            
+            <ul class="service-list"><li>Gyors helyzetfelmérés (cél, időtáv, kockázat).</li><li>Opciók érthető összehasonlítása (költség, rugalmasság, hozam).</li><li>Javaslat a következő lépésre – nyomás nélkül.</li></ul>
+          </article>
+<article class="service-card">
+            <h3>Mire figyelj?</h3>
+            
+            <ul class="service-list"><li>Teljes költségmutató (TKM) / díjak.</li><li>Rugalmasság: szüneteltetés, befizetés változtatása.</li><li>Adózás, hozzáférhetőség, várható időtáv.</li></ul>
+          </article>
+
+          </div>
+
+          <div class="service-steps">
+            <h2>Hogyan dolgozunk?</h2>
+            <ol class="steps">
+              <li><b>Rövid egyeztetés</b> – tisztázzuk a célokat és a lehetőségeket.</li>
+              <li><b>Összehasonlítás</b> – több ajánlatot átnézünk, érthetően.</li>
+              <li><b>Döntés + ügyintézés</b> – segítek a teljes folyamatban.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    <section class="service-gallery">
+      <div class="container pad">
+        <div class="service-gallery-grid">
+          <figure class="service-photo"><img src="Nyugdíj.jpg" alt="Nyugdíjas évek – célok" /></figure><figure class="service-photo"><img src="Penz-penz-penz-5-csillagjegynek-sok-a-sok-sok-penz-a-kovetkezo-2-hetben.webp" alt="Pénzügyi tervezés" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-mini" id="idopont">
+      <div class="container pad">
+        <div class="contact-mini-card">
+          <div class="contact-mini-head">
+            <h2>Időpontkérés / kapcsolat</h2>
+            <p>Röviden töltsd ki, és 24–48 órán belül felveszem veled a kapcsolatot.</p>
+          </div>
+
+          <form class="contact-mini-form" action="https://formspree.io/f/mzzkygya" method="POST">
+            <div>
+              <label>Név*</label>
+              <input required name="name" />
+            </div>
+            <div>
+              <label>E-mail*</label>
+              <input required type="email" name="email" />
+            </div>
+            <div>
+              <label>Telefonszám*</label>
+              <input name="phone" type="tel" inputmode="numeric" autocomplete="tel"
+                     required maxlength="15" pattern="^[0-9]{9,15}$"
+                     title="Kérlek, csak számokat adj meg (9–15 számjegy)."
+                     oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+            </div>
+            <div>
+              <label>Irányítószám*</label>
+              <input name="zip" inputmode="numeric" autocomplete="postal-code"
+                     required maxlength="4" pattern="^[0-9]{4}$"
+                     title="Kérlek, 4 számjegyű irányítószámot adj meg."
+                     oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+            </div>
+
+            <div class="full">
+              <label for="reason">Miért jelentkezik?*</label>
+              <select id="reason" name="reason" required>
+                <option value="" selected disabled>Válassz egy opciót…</option>
+                <option value="idopont">Időpont egyeztetés</option>
+                <option value="megtakaritas">Megtakarítás / befektetés</option>
+                <option value="hitel">Hitel / hitelkiváltás</option>
+                <option value="biztositas">Biztosítás / életbiztosítás</option>
+                <option value="nyugdij">Nyugdíj / nyugdíjcél</option>
+                <option value="vallalkozas">Vállalkozás pénzügyei</option>
+                <option value="other">Egyéb – saját megfogalmazás</option>
+              </select>
+            </div>
+
+            <div class="full" id="other-wrap" style="display:none;">
+              <label for="other_text">Írd le röviden, miben segíthetek*</label>
+              <textarea id="other_text" name="other_text" rows="3"></textarea>
+            </div>
+
+            <div class="full" id="note-wrap">
+              <label for="note">Megjegyzés (opcionális)</label>
+              <textarea id="note" name="note" rows="3"></textarea>
+            </div>
+
+            <label class="consent full">
+              <input type="checkbox" required name="gdpr" />
+              <span>
+                Elolvastam és elfogadom az
+                <a href="adatkezeles.html" target="_blank" rel="noopener">Adatkezelési tájékoztatót</a>,
+                és hozzájárulok, hogy a megadott személyes adataimat Fehér József a kapcsolatfelvétel és időpont-egyeztetés céljából kezelje.
+              </span>
+            </label>
+
+            <input type="hidden" name="_subject" value="Új kapcsolatfelvétel" />
+            <input type="hidden" name="_redirect" value="/koszonjuk.html" />
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <button class="submit full" type="submit">Beküldés</button>
+            <p class="tiny full">Ha inkább a teljes űrlapot töltenéd: <a href="kapcsolat.html">Kapcsolat oldal</a>.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <strong class="footer-brand">Fehér József</strong>
+        <div class="footer-links">
+          <span>© <span id="year"></span> Fehér József</span>
+          <span class="dot">•</span>
+          <a href="adatkezeles.html">Adatkezelési tájékoztató</a>
+          <span class="dot">•</span>
+          <a href="joginyilatkozat.html">Jogi nyilatkozat</a>
+        </div>
+      </div>
+    </footer>
+    <script src="site.js"></script>
+  </body>
+</html>

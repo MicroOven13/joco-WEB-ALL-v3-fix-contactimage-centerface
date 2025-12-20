@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>GYIK – Fehér József</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body data-page="faq">
+		<header>
+			<div class="container nav">
+				<a class="brand" href="index.html">Fehér József</a>
+
+				<!-- Hamburger -->
+				<button
+					id="menu-toggle"
+					type="button"
+					class="menu-toggle"
+					aria-expanded="false"
+					aria-controls="mainmenu"
+					aria-label="Menü"
+				>
+					☰
+				</button>
+
+				<!-- Menü -->
+				<nav class="menu" id="mainmenu">
+					<a href="index.html">Főoldal</a>
+					<a href="rolam.html">Rólam</a>
+					<a href="gyik.html" class="active">GYIK</a>
+					<a href="kapcsolat.html">Kapcsolat</a>
+				</nav>
+
+				<a class="cta" href="kapcsolat.html">Időpontkérés</a>
+			</div>
+		</header>
+
+		<main class="site-main">
+			<section class="hero faq-hero">
+				<div class="container pad">
+					<div class="faq-hero-grid">
+						<div class="faq-hero-left">
+							<h1>Gyakran ismételt kérdések</h1>
+							<p class="faq-lead">
+								Itt megtalálod a leggyakoribb kérdések rövid, átlátható válaszait.
+								Ha nem találod, amit keresel, egy kattintással tudsz időpontot kérni.
+							</p>
+
+							<div class="faq-search">
+								<label class="sr-only" for="faqSearch">Keresés</label>
+								<input
+									id="faqSearch"
+									type="search"
+									placeholder="Keresés a kérdések között…"
+									autocomplete="off"
+								/>
+															<button type="button" class="faq-clear" aria-label="Keresés törlése" title="Törlés">×</button>
+							</div>
+
+							<div class="faq-chips" aria-label="GYIK szűrők">
+								<button type="button" class="chip is-active" data-filter="all">Minden</button>
+								<button type="button" class="chip" data-filter="tanacsadas">Tanácsadás</button>
+								<button type="button" class="chip" data-filter="koltsegek">Költségek</button>
+								<button type="button" class="chip" data-filter="valasztas">Választás</button>
+							</div>
+						</div>
+
+						<aside class="faq-hero-right" aria-label="Gyors infó">
+							<div class="faq-sidecard">
+								<h2>Gyors válaszok</h2>
+								<ul>
+									<li>Független összehasonlítás több ajánlatból</li>
+									<li>Átlátható számok, költségek, hozamok</li>
+									<li>Szerződéskötés után is támogatás</li>
+								</ul>
+								<a class="btn btn-gold" href="kapcsolat.html">Időpontot kérek</a>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</section>
+
+			<section class="faq">
+				<div class="container">
+					<div class="faq-layout">
+						<aside class="faq-aside">
+							<div class="faq-toc">
+								<h2>Gyors navigáció</h2>
+								<a href="#sec-tanacsadas">Tanácsadás</a>
+								<a href="#sec-koltsegek">Költségek</a>
+								<a href="#sec-valasztas">Választás</a>
+							</div>
+
+							<div class="faq-callout">
+								<strong>Van még kérdésed?</strong>
+								<p>Írj vagy kérj időpontot – gyorsan válaszolok.</p>
+								<a class="btn btn-outline" href="kapcsolat.html">Kapcsolat</a>
+							</div>
+						</aside>
+
+						<div class="faq-content">
+							<h2 id="sec-tanacsadas" class="faq-section-title">Tanácsadás</h2>
+							<details class="faq-item" data-cat="tanacsadas">
+								<summary>Mit csinál egy pénzügyi tanácsadó?</summary>
+								<div class="faq-answer">
+						A GRANTIS pénzügyi tanácsadója elsőként felméri az igényeidet. Mivel
+						nincs általánosan, mindenki számára legjobb ajánlat, ezért elsőként
+						megismerjük, hogy mi az, ami fontos neked, hogyan képzeled az
+						ideális megtakarítást és ehhez képest milyen lehetőségeid vannak.
+						Részletesen átbeszéljük az igényeidet, elvárásaidat. A fentiek
+						alapján összegyűjtjük azokat az ajánlatokat, amik segíthetnek elérni
+						a céljaidat.. Saját fejlesztésű összehasonlító kalkulátorokkal
+						dolgozunk, amivel a konkrét számokat, költségeket és várható
+						hozamokat tudjuk neked megmutatni. Nincsenek “szerintem”-ek és
+						felesleges marketing, így a tények és természetesen a saját igényeid
+						alapján tudod rangsorolni a pénzintézeti ajánlatokat. A tanácsadó
+						gondoskodik róla, hogy a teljes papírmunkát elvégezzék helyetted. A
+						végső döntést, hogy melyik ajánlatot választod, mindig te hozod meg.
+						Minden mást, azaz nyomtatványok kitöltését, és leadását az általad
+						kiválasztott pénzintézethez viszont ránk bízhatod. És
+						szolgáltatásunknak ez még nem a vége, hanem csak a kezdete.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Miért érdemes pénzügyi tanácsadóval együtt dolgoznom?</summary>
+						<div class="faq-answer">
+							Ha olyan pénzügyi tanácsadóval dolgozol együtt, mint amilyenek a
+							GRANTIS tanácsadói vagy én, annak az a legnagyobb előnye, hogy a
+							hozzád legjobban illő ajánlatokat egyszerűen és gyorsan tudod
+							megtalálni, ahogy magadtól nem tudnád, de a szerződéskötés után is
+							számíthatsz rá, legyen bármilyen pénzügyi kérdésed.
+						</div>
+					</details>
+
+					
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Mennyire személyre szabott a tanácsadás?</summary>
+						<div class="faq-answer">
+							Minden megbeszélés az igényeidről szól: célok, időtáv, kockázatvállalás,
+							havi keret és már meglévő szerződések alapján választunk lehetőségeket.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Mennyi ideig tart egy konzultáció?</summary>
+						<div class="faq-answer">
+							Általában 30–60 perc. Összetettebb helyzeteknél lehet több kör is, hogy
+							minden kérdésedre nyugodtan legyen idő.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Online is tudunk egyeztetni?</summary>
+						<div class="faq-answer">
+							Igen, ha neked kényelmesebb, telefonon vagy online hívásban is megoldható.
+							A lényeg, hogy átláthatóan át tudjuk beszélni a számokat.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Mit érdemes előkészítenem a találkozóra?</summary>
+						<div class="faq-answer">
+							Hasznos, ha tudod a célod (mire, mikorra), a havi keretedet, és ha van,
+							a meglévő szerződések alapadatait (díj, futamidő, biztosító/bank).
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Kapok több alternatívát is összehasonlítva?</summary>
+						<div class="faq-answer">
+							Igen – jellemzően több opciót nézünk meg, és a döntést a számodra fontos
+							szempontok (költség, rugalmasság, kockázat, időtáv) szerint hozzuk meg.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Mi van, ha már van meglévő megtakarításom vagy biztosításom?</summary>
+						<div class="faq-answer">
+							Átnézzük, hogy mennyire illik a céljaidhoz, milyen költségei vannak, és
+							milyen lépések jöhetnek szóba (megtartás, módosítás, kiváltás).
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Mi történik a konzultáció után?</summary>
+						<div class="faq-answer">
+							Összefoglaljuk a lehetőségeket, egyeztetjük a következő lépéseket, és ha
+							szeretnéd, intézzük a szükséges adminisztrációt is.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="tanacsadas">
+						<summary>Bizalmasan kezeled az adataimat?</summary>
+						<div class="faq-answer">
+							Igen. Az adatokat kizárólag az egyeztetéshez és az ajánlatok előkészítéséhez
+							kezeljük, részletek az Adatkezelési tájékoztatóban találhatók.
+						</div>
+					</details>
+
+<h2 id="sec-koltsegek" class="faq-section-title">Költségek</h2>
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Hogyan lehet ingyenes a pénzügyi tanácsadás?</summary>
+						<div class="faq-answer">
+						A pénzügyi tanácsadásunk ingyenes. Hogyan lehet ez? A pénzügyi
+						közvetítői piacon mindenki sikerdíjért (jutalékért) dolgozik. De ezt
+						a költséget nem te, hanem a pénzügyi szolgáltatók fizetik meg.
+						Tehát, ha a GRANTIS-on keresztül választasz konstrukciót, attól még
+						az nem lesz drágább. A függetlenségünket ez nem befolyásolja: nem
+						csak a jegybank szabályozza a jutalék mértékét, de mi magunk is
+						törekszünk a legkiegyensúlyozottabb díjstruktúra kialakítására a
+						bankokkal, biztosítókkal. Nekünk fontosabb, hogy azt kapd, amivel
+						elégedett leszel hosszú távon is. Számodra a pénzügyi tancsácsadás
+						ára valójában azon múlik, hogy a megfelelő ajánlatot választod-e —
+						egy nem megalapozott döntés sokkal többe fog kerülni végső soron.
+						Ezért is fontos, hogy olyan tanácsadóhoz fordulj, aki az idálisat
+						keresi neked.
+						</div>
+					</details>
+
+					
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Mennyibe kerül nekem a tanácsadás?</summary>
+						<div class="faq-answer">
+							A konzultáció nálad jellemzően díjmentes. A termékek költségei a választott
+							megoldástól függenek, ezért ezeket mindig átláthatóan megmutatjuk.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Van minimum összeg vagy havi befizetés?</summary>
+						<div class="faq-answer">
+							Terméktől függ. Van, ahol már kisebb havi összeggel is el lehet indulni,
+							máshol magasabb minimumok vannak – ezt az összehasonlításnál tisztázzuk.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Milyen költségekre érdemes rákérdezni?</summary>
+						<div class="faq-answer">
+							Leggyakrabban: kezelési díjak, alapkezelési költségek, biztosítási díjak,
+							esetleges szerződéskötési/kezdő költségek, valamint a ki- és beszállás feltételei.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Mi történik, ha idő előtt megszüntetem?</summary>
+						<div class="faq-answer">
+							Előfordulhatnak visszaváltási/lezárási költségek vagy kedvezmények elvesztése.
+							Ezt mindig előre átbeszéljük, hogy ne érjen meglepetés.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Módosítható később a befizetés?</summary>
+						<div class="faq-answer">
+							Sok megoldásnál igen (emelés/csökkentés, szüneteltetés), de vannak kötöttebbek.
+							A rugalmasságot a céljaidhoz igazítjuk.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Kapok írásos összefoglalót a számokról?</summary>
+						<div class="faq-answer">
+							Igen, kérésre összefoglaljuk a fő paramétereket és a legfontosabb költségeket,
+							hogy otthon nyugodtan át tudd gondolni.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Kell adót fizetni a hozam után?</summary>
+						<div class="faq-answer">
+							Adózás terméktől függ (pl. TBSZ, nyugdíj célú megoldások, biztosítások).
+							Átbeszéljük, mi vonatkozik a kiválasztott konstrukcióra.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="koltsegek">
+						<summary>Vannak “rejtett” költségek?</summary>
+						<div class="faq-answer">
+							A cél, hogy ne legyen: a döntés előtt végigvesszük a díjakat és feltételeket.
+							Ha valami nem egyértelmű, addig tisztázzuk, amíg teljesen átlátható.
+						</div>
+					</details>
+
+<h2 id="sec-valasztas" class="faq-section-title">Választás</h2>
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Mire figyeljek amikor pénzügyi tanácsadót választok?</summary>
+						<div class="faq-answer">
+						Amikor egy pénzügyi tanácsadóval veszed fel a kapcsolatot, vagy
+						fordítva, ő keres meg téged, érdemes első lépésként rákeresni a
+						tanácsadó nevére az interneten, és megnézni a Magyar Nemzeti Banknál
+						bejegyzett engedélyét, majd a vele kapcsolatos ügyfélvéleményeket.
+						Ha ezt például a GRANTIS-szal teszed meg, rengeteg véleményt
+						olvashatsz a tanácsadásokról, így kezdeti képet kaphatsz arról, hogy
+						mire számíthatsz, ha a GRANTIS tanácsadójával ülsz le tárgyalni.
+						Arra buzdítunk téged is, hogy adj visszajelzést a tanácsadásról,
+						hiszen ezzel nekünk is segítesz abban, hogy még jobbak legyünk, de
+						leginkább azoknak segítesz, akik hozzád hasonló cipőben járnak és
+						megbízható tanácsadót keresnek.
+						</div>
+					</details>
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Hogyan döntünk a kockázati szintről?</summary>
+						<div class="faq-answer">
+							A célidő, a tartalékok, a bevállalható ingadozás és a tapasztalatod alapján.
+							Hosszabb időtávon általában több kockázat vállalható, rövid távon kevesebb.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Egyszeri befizetés vagy havi megtakarítás?</summary>
+						<div class="faq-answer">
+							Attól függ, van-e induló tőkéd és milyen a pénzáramlásod. Sok esetben a
+							rendszeres befizetés segít fegyelmezetten építkezni.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Forintban vagy devizában érdemes gondolkodni?</summary>
+						<div class="faq-answer">
+							Cél és időtáv kérdése. Ha a jövőbeli kiadás devizás (pl. külföld), lehet értelme.
+							De a deviza kockázatot is jelent – ezt mindig mérlegeljük.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Mi a különbség a befektetés és a biztosítás között?</summary>
+						<div class="faq-answer">
+							A befektetés a vagyonépítésre fókuszál, a biztosítás elsősorban kockázatokra ad
+							védelmet. Léteznek kombinált megoldások is – azt nézzük, neked mire van szükséged.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Mire figyeljek a szerződés “apró betűs” részénél?</summary>
+						<div class="faq-answer">
+							Különösen: felmondás/kivásárlás feltételei, díjmódosítás, költségek, kifizetési
+							szabályok és a kockázati tájékoztatók.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Mikor érdemes felülvizsgálni a pénzügyeimet?</summary>
+						<div class="faq-answer">
+							Évente egyszer mindenképp hasznos, illetve élethelyzet-változáskor (család,
+							lakás, munka, vállalkozás) érdemes újratervezni.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Kaphatok objektív összehasonlítást több szolgáltatótól?</summary>
+						<div class="faq-answer">
+							Igen, több ajánlatot nézünk meg egységes szempontok szerint, hogy könnyű legyen
+							összevetni őket.
+						</div>
+					</details>
+
+					<details class="faq-item" data-cat="valasztas">
+						<summary>Mi van, ha nem tudok most dönteni?</summary>
+						<div class="faq-answer">
+							Semmi gond. Az összefoglalót elviheted, átgondolhatod, és később folytatjuk.
+							A jó döntéshez idő kell – nem siettetünk.
+						</div>
+					</details>
+
+
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+      <div class="container footer-inner">
+        <strong class="footer-brand">Fehér József</strong>
+        <div class="footer-links">
+          <span>© <span id="year"></span> Fehér József</span>
+          <span class="dot">•</span>
+          <a href="adatkezeles.html">Adatkezelési tájékoztató</a>
+          <span class="dot">•</span>
+          <a href="joginyilatkozat.html">Jogi nyilatkozat</a>
+        </div>
+      </div>
+    </footer>
+		<script>
+			// GYIK: keresés + chip szűrő (csak ezen az oldalon)
+			(() => {
+				const input = document.getElementById("faqSearch");
+				const chips = document.querySelectorAll(".faq-chips .chip");
+				const items = Array.from(document.querySelectorAll(".faq-item"));
+				const sectionTitles = Array.from(document.querySelectorAll(".faq-section-title"));
+
+				let activeCat = "all";
+
+				const norm = (s) => (s || "").toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
+
+				const apply = () => {
+					const q = norm(input?.value || "");
+					items.forEach((d) => {
+						const cat = d.getAttribute("data-cat") || "";
+						const txt = norm(d.textContent);
+						const okCat = activeCat === "all" || cat === activeCat;
+						const okQ = !q || txt.includes(q);
+						d.style.display = okCat && okQ ? "" : "none";
+					});
+
+					// Címsorok: akkor látszanak, ha alatta van legalább egy látható elem
+					sectionTitles.forEach((h) => {
+						let el = h.nextElementSibling;
+						let hasVisible = false;
+						while (el && el.tagName.toLowerCase() === "details") {
+							if (getComputedStyle(el).display !== "none") { hasVisible = true; break; }
+							el = el.nextElementSibling;
+						}
+						h.style.display = hasVisible ? "" : "none";
+					});
+				};
+
+				chips.forEach((b) => {
+					b.addEventListener("click", () => {
+						chips.forEach((x) => x.classList.remove("is-active"));
+						b.classList.add("is-active");
+						activeCat = b.getAttribute("data-filter") || "all";
+						apply();
+					});
+				});
+
+				if (input) input.addEventListener("input", apply);
+				apply();
+			})();
+		</script>
+		<script src="site.js"></script>
+</body>
+</html>
